@@ -6,7 +6,10 @@ alias vi 'nvim'
 alias vim 'nvim'
 
 # rbenv
-status --is-interactive; and source (rbenv init -|psub)
+if type -q rbenv
+  status --is-interactive; and source (rbenv init -|psub)
+end
+
 set PATH $HOME/.rbenv/shims $PATH
 # THEME PURE #
 set fish_function_path /Users/radim/.config/fish/functions/theme-pure/functions/ $fish_function_path
