@@ -13,3 +13,9 @@ end
 set PATH $HOME/.rbenv/shims $PATH
 # THEME PURE #
 set fish_function_path /Users/radim/.config/fish/functions/theme-pure/functions/ $fish_function_path
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/radim/projects/google-cloud-sdk/path.fish.inc' ]; . '/Users/radim/projects/google-cloud-sdk/path.fish.inc'; end
+
+# virtualfish
+eval (python3 -m virtualfish)
