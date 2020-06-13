@@ -1,5 +1,6 @@
 set -x PATH $PATH /usr/local/go/bin $HOME/go/bin $HOME/.rbenv/bin
 set -x GOPATH $HOME/go
+set -x EDITOR vim
 
 # aliases
 alias vi 'nvim'
