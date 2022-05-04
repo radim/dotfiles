@@ -1,5 +1,6 @@
 set -x PATH $PATH /usr/local/go/bin $HOME/bin $HOME/go/bin $HOME/.rbenv/bin
 set -x GOPATH $HOME/go
+set -x PSQL_EDITOR nvim
 set -x EDITOR vim
 
 # aliases
