@@ -1,4 +1,4 @@
-set -x PATH $PATH /usr/local/go/bin $HOME/go/bin $HOME/.rbenv/bin
+set -x PATH $PATH /usr/local/go/bin $HOME/bin $HOME/go/bin $HOME/.rbenv/bin
 set -x GOPATH $HOME/go
 set -x EDITOR vim
 
